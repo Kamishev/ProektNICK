@@ -1,0 +1,283 @@
+﻿.collapsible {
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    margin-top: 10px;
+}
+
+    .active, .collapsible:hover {
+        background-color: silver;
+    }
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    
+}
+
+#img {
+    margin-top: -140px;
+    float: right;
+    
+}
+
+#img2 {
+    margin-top: -310px;
+    float: right;
+}
+
+#img3{
+    float:right;
+    margin-top:-160px;
+}
+
+#img4{
+    float:right;
+    margin-top:-140px;
+}
+
+#img5{
+    float:right;
+    margin-top:-80px;
+}
+#img6 {
+    float: right;
+    margin-top: -120px;
+}
+#img7 {
+    float: right;
+    margin-top: -150px;
+}
+#img8 {
+    float: right;
+    margin-top: -420px;
+}
+#img9 {
+    float: right;
+    margin-top: -200px;
+}
+#img10 {
+    float: right;
+    margin-top: -220px;
+}
+
+#img11 {
+    float: right;
+    margin-top: -100px;
+}
+
+#img12 {
+    float: right;
+    margin-top: -80px;
+}
+
+#img13 {
+    float: right;
+    margin-top: -80px;
+}
+
+#img14 {
+    float: right;
+    margin-top: -100px;
+}
+
+
+#img15 {
+    float: right;
+    margin-top: -100px;
+}
+
+#img16 {
+    float: right;
+    margin-top: -350px;
+}
+
+#img17 {
+    float: right;
+    margin-top: -320px;
+}
+
+
+
+
+.par {
+    margin-top:15px;
+    margin-right: 50%;
+}
+
+
+/*.fontChanger {
+    margin-top: 8vh;
+    width: 40px;
+    height: 40px;
+    margin-right: 40px;
+    background: lightgray;
+    border: none;
+    user-select: none;
+    cursor: pointer;
+}*/
+
+
+.fontButton {
+    margin-top: 20px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    background: lightgray;
+    cursor: pointer;
+}
+
+/*.pos {
+    margin-top:35px;
+    float: right;
+}*/
+
+/*input[type="checkbox"]{
+    -webkit-appearance: none;
+    visibility: hidden;
+    display: none;
+
+}
+
+.check{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 20px;
+    background: #092c3e;
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: ease-in 0.5s;
+    
+}
+
+input[type="checkbox"]:checked ~ .check {
+    background: #fff;
+    box-shadow: 0 0 0 1200px #092c3e;
+    
+}
+
+.check:before{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background: #fff;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transition: 0.5s;
+
+}
+
+input[type="checkbox"]:checked ~ .check:before{
+    transform: translateX(-50px);
+}
+
+
+.check:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background: #092c3e;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    transition: 0.5s;
+    transform: translateX(50px);
+}
+
+input[type="checkbox"]:checked ~ .check:after {
+    transform: translateX(0px);
+}*/
+
+.color-switcher{
+    position: fixed;
+    top: 25px; right:0px;
+    width: 200px;
+    padding:10px;
+    background: #fff;
+    z-index: 1000;
+    
+}
+
+    .color-switcher.active {
+        right: 0px;
+    }
+
+
+    .color-switcher h3 {
+        color: var(--main-color);
+        font-size: 20px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #3333;
+        padding: 5px 0;
+    }
+
+
+.color-switcher .switcher-btn{
+    position: absolute;
+    top: 0; left: -75px;
+    color:var(--main-color);
+    background: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 35px;
+    
+}
+
+
+    .color-switcher .switcher-btn i{
+        animation: rotate 2s linear infinite;
+
+    }
+
+    @keyframes rotate{
+        100%{
+            transform: rotate(360deg);
+
+        }
+    }
+
+    .color-switcher .theme-buttons-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+.color-switcher .theme-buttons-container .theme-buttons{
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+#f{
+    margin-right: 40px;
+}
+
+:root{
+    --main-color: #white; 
+}
+
+.content {
+    background: var(--main-color);
+}
+
+/*.style{
+    margin-top: -100px;
+    position:absolute;
+    float:right;
+}*/
