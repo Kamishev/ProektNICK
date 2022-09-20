@@ -20,12 +20,12 @@
         <table>
             <tr>
                 <td>
-                    <asp:Label ID="seated1" runat="server" Text="Label" Visible="false"><b>Hip hop music</b><br />
+                    <asp:Label ID="hiphop1" runat="server" Text="Label" Visible="false"><b>Hip hop music</b><br />
                         <h3><a href="https://www.youtube.com/watch?v=ISf83r2Ekz8&list=PLFgquLnL59alW3xmYiWRaoz0oM3H17Lth&index=3">Meek Mill - "Early Mornings"</a></h3>
                     </asp:Label>
                 </td>
                 <td style="width:1%">
-                    <asp:Label ID="seated2" runat="server" Text="Label" Visible="false"><iframe width="460" height="315" src="https://www.youtube.com/embed/ISf83r2Ekz8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></asp:Label>
+                    <asp:Label ID="hiphop2" runat="server" Text="Label" Visible="false"><iframe width="460" height="315" src="https://www.youtube.com/embed/ISf83r2Ekz8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></asp:Label>
                 </td>
             </tr>
         </table>
@@ -33,12 +33,12 @@
         <table>
             <tr>
                 <td>
-                    <asp:Label ID="low1" runat="server" Text="Label" Visible="false"><b>Pop music</b><br />
+                    <asp:Label ID="pop1" runat="server" Text="Label" Visible="false"><b>Pop music</b><br />
                         <h3><a href="https://www.youtube.com/watch?v=tct-9S4A56E&list=PLFgquLnL59alW3xmYiWRaoz0oM3H17Lth&index=28"> Jackson Wang - Blue (Official Music Video)</a></h3>
                     </asp:Label>
                 </td>
                 <td style="width:1%">
-                    <asp:Label ID="low2" runat="server" Text="Label" Visible="false"><iframe width="460" height="315" src="https://www.youtube.com/embed/tct-9S4A56E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></asp:Label>
+                    <asp:Label ID="pop2" runat="server" Text="Label" Visible="false"><iframe width="460" height="315" src="https://www.youtube.com/embed/tct-9S4A56E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></asp:Label>
                 </td>
             </tr>
         </table>
@@ -46,12 +46,12 @@
         <table>
             <tr>
                 <td>
-                    <asp:Label ID="wei1" runat="server" Text="Label" Visible="false"><b>Jazz music</b><br />
+                    <asp:Label ID="jazz1" runat="server" Text="Label" Visible="false"><b>Jazz music</b><br />
                         <h3><a href="https://www.youtube.com/watch?v=6ya0hU6bIl8"> Ryan Porter - Kings & Queens</a></h3>
                     </asp:Label>
                 </td>
                 <td style="width:1%">
-                    <asp:Label ID="wei2" runat="server" Text="Label" Visible="false"><iframe width="460" height="315" src="https://www.youtube.com/embed/6ya0hU6bIl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></asp:Label>
+                    <asp:Label ID="jazz2" runat="server" Text="Label" Visible="false"><iframe width="460" height="315" src="https://www.youtube.com/embed/6ya0hU6bIl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></asp:Label>
                 </td>
             </tr>
         </table>
@@ -59,12 +59,12 @@
         <table>
             <tr>
                 <td>
-                    <asp:Label ID="res1" runat="server" Text="Label" Visible="false"><b>Country music</b><br />
+                    <asp:Label ID="country1" runat="server" Text="Label" Visible="false"><b>Country music</b><br />
                         <h3><a href="https://www.youtube.com/watch?v=kk_2Ri1tbk8"> Little Big Town - Hell Yeah (Official Music Video)</a></h3>
                     </asp:Label>
                 </td>
                 <td style="width:1%">
-                    <asp:Label ID="res2" runat="server" Text="Label" Visible="false"><iframe width="460" height="315" src="https://www.youtube.com/embed/kk_2Ri1tbk8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></asp:Label>
+                    <asp:Label ID="country2" runat="server" Text="Label" Visible="false"><iframe width="460" height="315" src="https://www.youtube.com/embed/kk_2Ri1tbk8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></asp:Label>
                 </td>
             </tr>
         </table>
@@ -72,12 +72,12 @@
         <table>
             <tr>
                 <td>
-                    <asp:Label ID="flex1" runat="server" Text="Label" Visible="false"><b>Rock Music</b><br />
+                    <asp:Label ID="rock1" runat="server" Text="Label" Visible="false"><b>Rock Music</b><br />
                         <h3><a href="https://www.youtube.com/watch?v=kk_2Ri1tbk8"> ONE OK ROCK - SAVE YOURSELF [OFFICIAL VIDEO]</a></h3>
                     </asp:Label>
                 </td>
                 <td style="width:1%">
-                    <asp:Label ID="flex2" runat="server" Text="Label" Visible="false"><iframe width="460" height="315" src="https://www.youtube.com/embed/3Fxzu6Jbrww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></asp:Label>
+                    <asp:Label ID="rock2" runat="server" Text="Label" Visible="false"><iframe width="460" height="315" src="https://www.youtube.com/embed/3Fxzu6Jbrww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></asp:Label>
                 </td>
             </tr>
         </table>

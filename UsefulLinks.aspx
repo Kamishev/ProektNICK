@@ -2,6 +2,8 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h1><%: Title %></h1>
+
+
     <div>
         <p>
             <h3>Here you can find other useful links.</h3>

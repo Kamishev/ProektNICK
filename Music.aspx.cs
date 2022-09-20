@@ -29,73 +29,73 @@ namespace ProektNICK
             ListItem selectedItem = lista.SelectedItem;
             if (selectedItem.Value.ToString() == "1")
             {
-                seated1.Visible = true;
-                seated2.Visible = true;
+                hiphop1.Visible = true;
+                hiphop2.Visible = true;
 
-                low1.Visible = false;
-                low2.Visible = false;
-                wei1.Visible = false;
-                wei2.Visible = false;
-                res1.Visible = false;
-                res2.Visible = false;
-                flex1.Visible = false;
-                flex2.Visible = false;
+                pop1.Visible = false;
+                pop2.Visible = false;
+                jazz1.Visible = false;
+                jazz2.Visible = false;
+                country1.Visible = false;
+                country2.Visible = false;
+                rock1.Visible = false;
+                rock2.Visible = false;
             }
             else if (selectedItem.Value.ToString() == "2")
             {
-                low1.Visible = true;
-                low2.Visible = true;
+                pop1.Visible = true;
+                pop2.Visible = true;
 
-                seated1.Visible = false;
-                seated2.Visible = false;
-                wei1.Visible = false;
-                wei2.Visible = false;
-                res1.Visible = false;
-                res2.Visible = false;
-                flex1.Visible = false;
-                flex2.Visible = false;
+                hiphop1.Visible = false;
+                hiphop2.Visible = false;
+                jazz1.Visible = false;
+                jazz2.Visible = false;
+                country1.Visible = false;
+                country2.Visible = false;
+                rock1.Visible = false;
+                rock2.Visible = false;
             }
             else if (selectedItem.Value.ToString() == "3")
             {
-                wei1.Visible = true;
-                wei2.Visible = true;
+                jazz1.Visible = true;
+                jazz2.Visible = true;
 
-                seated1.Visible = false;
-                seated2.Visible = false;
-                low1.Visible = false;
-                low2.Visible = false;
-                res1.Visible = false;
-                res2.Visible = false;
-                flex1.Visible = false;
-                flex2.Visible = false;
+                hiphop1.Visible = false;
+                hiphop2.Visible = false;
+                pop1.Visible = false;
+                pop2.Visible = false;
+                country1.Visible = false;
+                country2.Visible = false;
+                rock1.Visible = false;
+                rock2.Visible = false;
             }
             else if (selectedItem.Value.ToString() == "4")
             {
-                res1.Visible = true;
-                res2.Visible = true;
+                country1.Visible = true;
+                country2.Visible = true;
 
-                seated1.Visible = false;
-                seated2.Visible = false;
-                low1.Visible = false;
-                low2.Visible = false;
-                wei1.Visible = false;
-                wei2.Visible = false;
-                flex1.Visible = false;
-                flex2.Visible = false;
+                hiphop1.Visible = false;
+                hiphop2.Visible = false;
+                pop1.Visible = false;
+                pop2.Visible = false;
+                jazz1.Visible = false;
+                jazz2.Visible = false;
+                rock1.Visible = false;
+                rock2.Visible = false;
             }
             else if (selectedItem.Value.ToString() == "5")
             {
-                flex1.Visible = true;
-                flex2.Visible = true;
+                rock1.Visible = true;
+                rock2.Visible = true;
 
-                seated1.Visible = false;
-                seated2.Visible = false;
-                low1.Visible = false;
-                low2.Visible = false;
-                wei1.Visible = false;
-                wei2.Visible = false;
-                res1.Visible = false;
-                res2.Visible = false;
+                hiphop1.Visible = false;
+                hiphop2.Visible = false;
+                pop1.Visible = false;
+                pop2.Visible = false;
+                jazz1.Visible = false;
+                jazz2.Visible = false;
+                country1.Visible = false;
+                country2.Visible = false;
             }
         }
 

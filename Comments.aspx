@@ -2,18 +2,26 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h1><%: Title %></h1>
+
+    <button type="button" class="fontButton" onclick="changeFontSize('increase')">+</button>
+        <button type="button"  class="fontButton" onclick="changeFontSize('decrease')">-</button>
+        <br />
+    <br />
+
+    <div id="f">
     <p><b>Comments:</b></p>
             <p id="output1"></p>
             <br>
             <p>Add a comment</p>
             <form>
-                <input type="text" id="input1"> <button type="button" id="btn1" onclick="f1()">Post</button>
+                <input type="text" id="input1"> <button type="button" id="btn1" onclick="f1()">Click me to post a comment</button>
+
+                </div>
 
 
 
 
-
-                <script>
+    <script>
     const txt1 = document.getElementById('input1');
     const out1 = document.getElementById('output1');
 
@@ -48,9 +56,29 @@
             out3.innerHTML += txt3.value + "<br>";
             txt3.value = "";
         }
-    }
+        }
 
-                </script>
+
+        function changeFontSize(type) {
+
+            let id = ["#f"];
+
+            let el = document.querySelector(id);
+
+            let fontSize = window.getComputedStyle(el, null).getPropertyValue("font-size");
+
+            fontSize = parseFloat(fontSize);
+
+            if (type === 'increase') {
+                el.style.fontSize = (fontSize + 3) + "px";
+            } else {
+                el.style.fontSize = (fontSize - 3) + "px";
+            }
+
+
+        }
+
+    </script>
 
 
 </asp:Content>

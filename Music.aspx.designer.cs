@@ -42,93 +42,93 @@ namespace ProektNICK
         protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
-        /// seated1 control.
+        /// hiphop1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label seated1;
+        protected global::System.Web.UI.WebControls.Label hiphop1;
 
         /// <summary>
-        /// seated2 control.
+        /// hiphop2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label seated2;
+        protected global::System.Web.UI.WebControls.Label hiphop2;
 
         /// <summary>
-        /// low1 control.
+        /// pop1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label low1;
+        protected global::System.Web.UI.WebControls.Label pop1;
 
         /// <summary>
-        /// low2 control.
+        /// pop2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label low2;
+        protected global::System.Web.UI.WebControls.Label pop2;
 
         /// <summary>
-        /// wei1 control.
+        /// jazz1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label wei1;
+        protected global::System.Web.UI.WebControls.Label jazz1;
 
         /// <summary>
-        /// wei2 control.
+        /// jazz2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label wei2;
+        protected global::System.Web.UI.WebControls.Label jazz2;
 
         /// <summary>
-        /// res1 control.
+        /// country1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label res1;
+        protected global::System.Web.UI.WebControls.Label country1;
 
         /// <summary>
-        /// res2 control.
+        /// country2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label res2;
+        protected global::System.Web.UI.WebControls.Label country2;
 
         /// <summary>
-        /// flex1 control.
+        /// rock1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label flex1;
+        protected global::System.Web.UI.WebControls.Label rock1;
 
         /// <summary>
-        /// flex2 control.
+        /// rock2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label flex2;
+        protected global::System.Web.UI.WebControls.Label rock2;
     }
 }
